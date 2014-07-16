@@ -10,7 +10,7 @@
 	<url>http://maven.apache.org</url>
 
 	<organization>
-		<name>Fujitsu Limited Ireland</name>
+		<name>Fujitsu Ireland Limited</name>
 		<url>http://ie.fujitsu.com</url>
 	</organization>
 
@@ -19,7 +19,7 @@
 			<id>emir.munoz</id>
 			<name>Emir Munoz</name>
 			<email>emir.munoz@gmail.com</email>
-			<organization>Fujitsu Limited Ireland</organization>
+			<organization>Fujitsu Ireland Limited</organization>
 			<organizationUrl>http://ie.fujitsu.com</organizationUrl>
 		</developer>
 	</developers>
@@ -72,18 +72,18 @@
 		</dependency>
 	</dependencies>
 
-	<!-- <build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.1</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.6</source>
+					<target>1.6</target>
 				</configuration>
 			</plugin>
 		</plugins>
-	</build> -->
+	</build>
 
 </project>
