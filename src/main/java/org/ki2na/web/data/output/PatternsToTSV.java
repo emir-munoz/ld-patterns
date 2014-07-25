@@ -14,7 +14,7 @@ import org.ki2na.web.data.util.DirectoryUtils;
 public class PatternsToTSV
 {
 
-	private THashMap<String, String> mappings = new THashMap<>();
+	private THashMap<String, String> mappings = new THashMap<String, String>();
 
 	public PatternsToTSV()
 	{
