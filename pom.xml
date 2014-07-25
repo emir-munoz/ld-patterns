@@ -7,7 +7,7 @@
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>web-data</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/emir-munoz/ld-patterns</url>
 
 	<organization>
 		<name>Fujitsu Ireland Limited</name>
@@ -19,10 +19,30 @@
 			<id>emir.munoz</id>
 			<name>Emir Munoz</name>
 			<email>emir.munoz@gmail.com</email>
+			<url>http://emunoz.org</url>
 			<organization>Fujitsu Ireland Limited</organization>
 			<organizationUrl>http://ie.fujitsu.com</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>0</timezone>
 		</developer>
 	</developers>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git@github.com:emir-munoz/ld-patterns.git</connection>
+		<developerConnection>scm:git:git@github.com:emir-munoz/ld-patterns.git</developerConnection>
+		<url>https://github.com/emir-munoz/ld-patterns</url>
+	</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -74,6 +94,7 @@
 
 	<build>
 		<plugins>
+			<!-- set java version to 1.6 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
