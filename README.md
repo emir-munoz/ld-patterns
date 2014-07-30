@@ -1,7 +1,7 @@
 Learning Content Patterns from Linked Data
 ==========================================
 
-by Emir Munoz (emir@emunoz.org)
+by Emir Munoz (emir@emunoz.org, http://emunoz.org)
 
 ## Abstract
 
@@ -47,3 +47,6 @@ The patterns for a given property can be retrieved using a select query as follo
 	+----------------------------------+--------------------------------------------------------+-----------+
 ```
 
+Supports Java 1.6 and 1.7.
+
+[![Build status](https://travis-ci.org/emir-munoz/ld-patterns.svg?branch=master)](https://travis-ci.org/emir-munoz/ld-patterns)
